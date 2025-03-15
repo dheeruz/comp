@@ -1,0 +1,121 @@
+Mar 07 06:41:56 server kernel: CPU1: Core temperature above threshold, cpu clock throttled (total events = 5)
+Mar 07 06:36:33 server kernel: CPU1: Core temperature above threshold, cpu clock throttled (total events = 5)
+Mar 07 06:37:38 server kernel: [UFW BLOCK] IN=eth0 OUT= MAC=xx:xx:xx SRC=203.0.113.50 DST=192.168.1.100
+Mar 07 06:41:23 server kernel: iptables denied: IN=eth0 OUT= MAC=xx:xx:xx SRC=192.168.1.150 DST=192.168.1.1
+Mar 07 06:50:57 server sudo[3021]: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/systemctl restart networking.service
+Mar 07 06:43:48 server systemd[1]: Starting Clean php session files...
+Mar 07 06:41:51 server audit[2245]: CRED_REFR pid=2245 uid=0 auid=1000 ses=4 msg='op=PAM:setcred grantor=? acct="expX" exe="/usr/bin/sudo"'
+Mar 07 06:33:49 server systemd[1]: Starting Clean php session files...
+Mar 07 06:58:14 server kernel: CPU1: Core temperature above threshold, cpu clock throttled (total events = 5)
+Mar 07 06:57:58 server sudo[3021]: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/systemctl restart networking.service
+Mar 07 06:49:30 server systemd[1]: Created slice User Slice of UID 1001.
+Mar 07 06:46:41 server sshd[2250]: Disconnected from invalid user test 192.168.1.50 port 52435
+Mar 07 06:39:33 server audit[2245]: CRED_REFR pid=2245 uid=0 auid=1000 ses=4 msg='op=PAM:setcred grantor=? acct="expX" exe="/usr/bin/sudo"'
+Mar 07 06:43:45 server kernel: CPU1: Core temperature above threshold, cpu clock throttled (total events = 5)
+Mar 07 06:23:44 server audit[1345]: USER_AUTH pid=1345 uid=0 auid=1000 ses=2 msg='op=PAM:authentication grantor=? acct="expX" exe="/usr/bin/sudo" hostname=? addr=? terminal=pts/2'
+Mar 07 06:13:12 server Started Session 5 of user root.
+Mar 07 06:46:48 server audit[1345]: USER_AUTH pid=1345 uid=0 auid=1000 ses=2 msg='op=PAM:authentication grantor=? acct="expX" exe="/usr/bin/sudo" hostname=? addr=? terminal=pts/2'
+Mar 07 06:12:16 server systemd-logind[1024]: Removed session c5.
+Mar 07 06:31:35 server kernel: iptables denied: IN=eth0 OUT= MAC=xx:xx:xx SRC=192.168.1.150 DST=192.168.1.1
+Mar 07 06:20:42 server kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 07 06:34:35 server sshd[2045]: Accepted password for admin from 192.168.1.100 port 53422 ssh2
+Mar 07 06:37:20 server NetworkManager[1350]: <info>  [06:15:42] device (eth0): state change: activated -> deactivating
+Mar 07 06:30:34 server systemd[1]: Starting Clean php session files...
+Mar 07 06:28:42 server sshd[2250]: Disconnected from invalid user test 192.168.1.50 port 52435
+Mar 07 06:17:43 server systemd[1]: Created slice User Slice of UID 1001.
+Mar 07 06:46:53 server kernel: TCP: request_sock_TCP: Possible SYN flooding on port 22. Dropping request.
+Mar 07 06:55:40 server Started Session 5 of user root.
+Mar 07 06:44:40 server kernel: iptables denied: IN=eth0 OUT= MAC=xx:xx:xx SRC=192.168.1.150 DST=192.168.1.1
+Mar 07 06:32:19 server kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 07 06:29:11 server systemd[1]: Starting Clean php session files...
+Mar 07 06:23:37 server kernel: iptables denied: IN=eth0 OUT= MAC=xx:xx:xx SRC=192.168.1.150 DST=192.168.1.1
+Mar 07 06:51:47 server sudo[3021]: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/systemctl restart networking.service
+Mar 07 06:31:46 server systemd[1]: Stopped target Basic System.
+Mar 07 06:54:50 server kernel: TCP: request_sock_TCP: Possible SYN flooding on port 22. Dropping request.
+Mar 07 06:31:24 server systemd-logind[1024]: Removed session c5.
+Mar 07 06:47:11 server systemd[1]: Starting Clean php session files...
+Mar 07 06:50:50 server Stopped target System Time Synchronized.
+Mar 07 06:17:44 server systemd[1]: Stopped target Basic System.
+Mar 07 06:44:14 server kernel: [UFW BLOCK] IN=eth0 OUT= MAC=xx:xx:xx SRC=203.0.113.50 DST=192.168.1.100
+Mar 07 06:34:44 server systemd-logind[1024]: Removed session c5.
+Mar 07 06:47:51 server kernel: CPU1: Core temperature above threshold, cpu clock throttled (total events = 5)
+Mar 07 06:57:56 server Started Session 5 of user root.
+Mar 07 06:22:15 server sudo[3021]: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/systemctl restart networking.service
+Mar 07 06:56:34 server systemd[1]: Created slice User Slice of UID 1001.
+Mar 07 06:15:40 server systemd[1]: Created slice User Slice of UID 1001.
+Mar 07 06:35:42 server kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 07 06:38:35 server kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 07 06:26:45 server systemd-logind[1024]: Removed session c5.
+Mar 07 06:33:20 server kernel: [UFW BLOCK] IN=eth0 OUT= MAC=xx:xx:xx SRC=203.0.113.50 DST=192.168.1.100
+Mar 07 06:40:17 server sudo[3021]: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/systemctl restart networking.service
+Mar 07 06:36:36 server audit[2245]: CRED_REFR pid=2245 uid=0 auid=1000 ses=4 msg='op=PAM:setcred grantor=? acct="expX" exe="/usr/bin/sudo"'
+Mar 07 06:32:12 server sshd[2045]: Accepted password for admin from 192.168.1.100 port 53422 ssh2
+Mar 07 06:52:13 server kernel: CPU1: Core temperature above threshold, cpu clock throttled (total events = 5)
+Mar 07 06:49:34 server Started Session 5 of user root.
+Mar 07 06:37:32 server kernel: iptables denied: IN=eth0 OUT= MAC=xx:xx:xx SRC=192.168.1.150 DST=192.168.1.1
+Mar 07 06:56:29 server Stopped target System Time Synchronized.
+Mar 07 06:32:50 server systemd[1]: Stopped target Basic System.
+Mar 07 06:51:46 server kernel: TCP: request_sock_TCP: Possible SYN flooding on port 22. Dropping request.
+Mar 07 06:14:24 server NetworkManager[1350]: <info>  [06:15:42] device (eth0): state change: activated -> deactivating
+Mar 07 06:35:37 server systemd[1]: Stopped target Basic System.
+Mar 07 06:30:16 server systemd[1]: Created slice User Slice of UID 1001.
+Mar 07 06:22:54 server systemd[1]: Stopped target Basic System.
+Mar 07 06:36:28 server kernel: TCP: request_sock_TCP: Possible SYN flooding on port 22. Dropping request.
+Mar 07 06:45:11 server NetworkManager[1350]: <info>  [06:15:42] device (eth0): state change: activated -> deactivating
+Mar 07 06:42:45 server sshd[2045]: Accepted password for admin from 192.168.1.100 port 53422 ssh2
+Mar 07 06:20:34 server systemd[1]: Stopped target Basic System.
+Mar 07 06:49:59 server sshd[2045]: Accepted password for admin from 192.168.1.100 port 53422 ssh2
+Mar 07 06:23:44 server kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 07 06:27:29 server sshd[2045]: Accepted password for admin from 192.168.1.100 port 53422 ssh2
+Mar 07 06:27:58 server systemd[1]: Created slice User Slice of UID 1001.
+Mar 07 06:53:54 server sshd[2045]: Accepted password for admin from 192.168.1.100 port 53422 ssh2
+Mar 07 06:48:39 server audit[1345]: USER_AUTH pid=1345 uid=0 auid=1000 ses=2 msg='op=PAM:authentication grantor=? acct="expX" exe="/usr/bin/sudo" hostname=? addr=? terminal=pts/2'
+Mar 07 06:57:11 server kernel: [UFW BLOCK] IN=eth0 OUT= MAC=xx:xx:xx SRC=203.0.113.50 DST=192.168.1.100
+Mar 07 06:42:16 server systemd[1]: Stopped target Basic System.
+Mar 07 06:25:50 server systemd-logind[1024]: Removed session c5.
+Mar 07 06:12:30 server sudo[3021]: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/systemctl restart networking.service
+Mar 07 06:32:52 server Stopped target System Time Synchronized.
+Mar 07 06:35:36 server kernel: TCP: request_sock_TCP: Possible SYN flooding on port 22. Dropping request.
+Mar 07 06:51:27 server sudo[3021]: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/systemctl restart networking.service
+Mar 07 06:33:35 server systemd[1]: Stopped target Basic System.
+Mar 07 06:45:23 server kernel: EXT4-fs (sda1): y0u_1s_w4it1ng!}
+Mar 07 06:59:34 server systemd[1]: Starting Clean php session files...
+Mar 07 06:30:38 server kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 07 06:55:58 server kernel: [UFW BLOCK] IN=eth0 OUT= MAC=xx:xx:xx SRC=203.0.113.50 DST=192.168.1.100
+Mar 07 06:15:33 server systemd[1]: Starting Clean php session files...
+Mar 07 06:48:51 server kernel: iptables denied: IN=eth0 OUT= MAC=xx:xx:xx SRC=192.168.1.150 DST=192.168.1.1
+Mar 07 06:15:12 server kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 07 06:15:59 server sshd[2250]: Disconnected from invalid user test 192.168.1.50 port 52435
+Mar 07 06:59:58 server audit[2245]: CRED_REFR pid=2245 uid=0 auid=1000 ses=4 msg='op=PAM:setcred grantor=? acct="expX" exe="/usr/bin/sudo"'
+Mar 07 06:55:26 server NetworkManager[1350]: <info>  [06:15:42] device (eth0): state change: activated -> deactivating
+Mar 07 06:13:52 server sshd[2045]: Accepted password for admin from 192.168.1.100 port 53422 ssh2
+Mar 07 06:18:40 server sshd[2250]: Disconnected from invalid user test 192.168.1.50 port 52435
+Mar 07 06:53:37 server systemd[1]: Created slice User Slice of UID 1001.
+Mar 07 06:10:16 server Started Session 5 of user root.
+Mar 07 06:53:46 server kernel: [UFW BLOCK] IN=eth0 OUT= MAC=xx:xx:xx SRC=203.0.113.50 DST=192.168.1.100
+Mar 07 06:14:43 server kernel: [UFW BLOCK] IN=eth0 OUT= MAC=xx:xx:xx SRC=203.0.113.50 DST=192.168.1.100
+Mar 07 06:31:50 server NetworkManager[1350]: <info>  [06:15:42] device (eth0): state change: activated -> deactivating
+Mar 07 06:47:46 server audit[2245]: CRED_REFR pid=2245 uid=0 auid=1000 ses=4 msg='op=PAM:setcred grantor=? acct="expX" exe="/usr/bin/sudo"'
+Mar 07 06:18:41 server kernel: iptables denied: IN=eth0 OUT= MAC=xx:xx:xx SRC=192.168.1.150 DST=192.168.1.1
+Mar 07 06:55:51 server sshd[2045]: Accepted password for admin from 192.168.1.100 port 53422 ssh2
+Mar 07 06:27:50 server sshd[2250]: Disconnected from invalid user test 192.168.1.50 port 52435
+Mar 07 06:26:49 server systemd[1]: Stopped target Basic System.
+Mar 07 06:16:32 server kernel: TCP: request_sock_TCP: Possible SYN flooding on port 22. Dropping request.
+Mar 07 06:17:15 server systemd[1]: Starting Clean php session files...
+Mar 07 06:14:13 server sshd[2045]: Accepted password for admin from 192.168.1.100 port 53422 ssh2
+Mar 07 06:23:13 server audit[1345]: USER_AUTH pid=1345 uid=0 auid=1000 ses=2 msg='op=PAM:authentication grantor=? acct="expX" exe="/usr/bin/sudo" hostname=? addr=? terminal=pts/2'
+Mar 07 06:17:10 server kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 07 06:51:11 server kernel: TCP: request_sock_TCP: Possible SYN flooding on port 22. Dropping request.
+Mar 07 06:17:45 server sudo[3021]: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/systemctl restart networking.service
+Mar 07 06:58:13 server systemd-logind[1024]: Removed session c5.
+Mar 07 06:31:49 server Stopped target System Time Synchronized.
+Mar 07 06:35:13 server audit[2245]: CRED_REFR pid=2245 uid=0 auid=1000 ses=4 msg='op=PAM:setcred grantor=? acct="expX" exe="/usr/bin/sudo"'
+Mar 07 06:22:17 server sshd[2045]: Accepted password for admin from 192.168.1.100 port 53422 ssh2
+Mar 07 06:20:10 server NetworkManager[1350]: <info>  [06:15:42] device (eth0): state change: activated -> deactivating
+Mar 07 06:23:16 server audit[2245]: CRED_REFR pid=2245 uid=0 auid=1000 ses=4 msg='op=PAM:setcred grantor=? acct="expX" exe="/usr/bin/sudo"'
+Mar 07 06:57:58 server systemd[1]: Created slice User Slice of UID 1001.
+Mar 07 06:21:30 server Started Session 5 of user root.
+Mar 07 06:51:19 server systemd[1]: Stopped target Basic System.
+Mar 07 06:23:12 server sshd[2045]: Accepted password for admin from 192.168.1.100 port 53422 ssh2
+Mar 07 06:34:51 server systemd[1]: Stopped target Basic System.
+Mar 07 06:23:46 server systemd-logind[1024]: Removed session c5.

